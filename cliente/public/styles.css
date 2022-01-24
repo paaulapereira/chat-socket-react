@@ -1,0 +1,25 @@
+html {
+  height: 100vh;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: #081c15;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+.offline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  background: #d8f3dc;
+  width: 40%;
+  padding: 40px 8%;
+  border-radius: 20px;
+  font-size: 1.5rem;
+}

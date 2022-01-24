@@ -1,0 +1,37 @@
+//estilos del input
+.form {
+  display: flex;
+  border-top: 2px solid $primary-color;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.input {
+  border: none;
+  border-radius: 0 0 10px 10px;
+  padding: 5%;
+  width: 85%;
+  font-size: 1.1em;
+  background-color: $nyanza-light;
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn-secondary {
+  background: $primary-color;
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  border: none;
+  padding: 20px;
+  width: 15%;
+  border-radius: 0 0 10px 0;
+  font-size: 2rem;
+  &:hover {
+    background-color: $brunswick-green;
+    color: $primary-color;
+    cursor: pointer;
+  }
+}

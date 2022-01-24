@@ -1,0 +1,14 @@
+//estilos chat
+.chat {
+  gap: 3rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: $bg-light;
+  border-radius: 10px;
+  height: 70%;
+  width: 50%;
+  z-index: 2;
+}

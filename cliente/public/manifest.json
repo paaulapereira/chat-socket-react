@@ -1,0 +1,30 @@
+{
+  "short_name": "Web Chat",
+  "name": "Web Chat with Socket IO",
+  "icons": [
+    {
+      "src": "chatIcon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "chat.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "chat256.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "chatXs.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

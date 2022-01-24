@@ -1,0 +1,57 @@
+.list {
+  padding: 5% 0;
+  overflow: auto;
+  flex: auto;
+}
+
+.message {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+  margin-top: 3px;
+  margin-bottom: 7px;
+  &_box {
+    background: $gray;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: white;
+    display: inline-block;
+    max-width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+      rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  &_text {
+    width: 100%;
+    letter-spacing: 0;
+    float: left;
+    font-size: 1.1em;
+    word-wrap: break-word;
+  }
+  &_sent {
+    justify-content: flex-end;
+    & > .username {
+      padding-right: 10px;
+    }
+  }
+  &_recieved {
+    justify-content: flex-start;
+    & > .username {
+      padding-left: 10px;
+    }
+  }
+}
+
+.sent {
+  background: $brunswick-green;
+  color: white;
+}
+.recieved {
+  background: $nyanza-light;
+  color: $black;
+}
+.username {
+  display: flex;
+  align-items: center;
+  color: $dark-gray;
+  letter-spacing: 0.3px;
+}
